@@ -1,0 +1,36 @@
+page-hello-ionic {
+
+}
+
+.img-main
+{
+  overflow: hidden;
+  height: 240px;
+  width: 240px;
+}
+
+.img-logo
+{
+  width: auto;
+  height: 100%;
+  border-radius: 50%;
+  border: 5px solid #f4f4f4;
+}
+
+.overlapped-btn
+{
+  position: relative;
+  top: -30px;
+}
+
+.text-primary
+{
+  position: relative;
+  top: -50px;
+  padding: 15px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6em;
+  font-weight: 600;
+  line-height: 150%;
+}
