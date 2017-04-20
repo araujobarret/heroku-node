@@ -1,6 +1,12 @@
+.background
+{
+  padding: 0vw;
+}
+
 .element-menu
 {
-  margin-top: 10vw;
+  border: none;
+  background-color: color($colors, primary);
 }
 
 .img-menu
@@ -22,7 +28,6 @@
 {
   color: white;
   font-family: "Open Sans", sans-serif;
-  background-color: rgba(color($colors, complementary), 0.20);
 }
 
 .text-menu-right
@@ -33,4 +38,20 @@
 .text-menu-left
 {
   margin-left: 3vw;
+}
+
+.overlapped-btn-element
+{
+  top: -8vw;
+  position: relative;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  background-color: color($colors, light);
+}
+
+.overlapped-btn-element-right
+{
+  padding-left: 3vw;
+  margin-left: 4vw;
 }
