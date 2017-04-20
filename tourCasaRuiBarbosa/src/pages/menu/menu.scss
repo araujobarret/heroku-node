@@ -1,0 +1,36 @@
+.element-menu
+{
+  margin-top: 10vw;
+}
+
+.img-menu
+{
+  overflow: hidden;
+  margin-left: 1vw;
+  height: 40vw;
+  width: 40vw;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.img-menu-right
+{
+  margin-left: 3vw;
+}
+
+.text-menu
+{
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(color($colors, complementary), 0.20);
+}
+
+.text-menu-right
+{
+  margin-left: 3vw;
+}
+
+.text-menu-left
+{
+  margin-left: 3vw;
+}

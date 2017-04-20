@@ -22,11 +22,12 @@ $font-path: "../assets/fonts";
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #7cb342,
-  secondary:  #66bb6a,
+  primary:    #689f38,
+  secondary:  #c5e1a5,
   danger:     #f53d3d,
   light:      #9ccc65,
-  dark:       #1b5e20
+  dark:       #33691e,
+  complementary: #FFEDAA
 );
 
 

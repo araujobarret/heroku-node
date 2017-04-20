@@ -1,33 +1,28 @@
-page-hello-ionic {
-
-}
-
 .img-main
 {
   overflow: hidden;
-  height: 240px;
-  width: 240px;
+  width: 70vw;
+  height: 70vw;
 }
 
 .img-logo
 {
-  width: auto;
-  height: 100%;
+  width: 60vw;
+  height: 60vw;
   border-radius: 50%;
-  border: 5px solid #f4f4f4;
+  border: 3px solid #f4f4f4;
 }
 
 .overlapped-btn
 {
   position: relative;
-  top: -30px;
+  top: -15vw;
 }
 
 .text-primary
 {
   position: relative;
-  top: -50px;
-  padding: 15px;
+  top: -15vw;
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 1.6em;
