@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: 'menu.html'
 })
 export class MenuPage {
+
   constructor() {
 
   }

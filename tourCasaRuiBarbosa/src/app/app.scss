@@ -15,7 +15,40 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-.background
+.background-main
 {
   background-color: color($colors, light);
+}
+
+.toolbar-md
+{
+  padding: 2vw;
+  min-height: 10vw;
+}
+
+.back-button
+{
+  height: 5vw!important;
+}
+
+.toolbar-background
+{
+  background-color: #f4f4f4;
+}
+
+.toolbar-title
+{
+  font-size: 4vw;
+  text-align: center
+}
+
+.toolbar-title span
+{
+  margin-left: auto;
+}
+
+.img-nav
+{
+  width: 7vw;
+  height: 3vw;
 }

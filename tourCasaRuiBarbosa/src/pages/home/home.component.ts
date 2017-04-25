@@ -12,6 +12,6 @@ export class HomePage {
 
   enterMenu()
   {
-    this.nav.push(MenuPage);
+    this.nav.push(MenuPage, {}, {animation: "slide-left-right", direction: "forward"});
   }
 }
