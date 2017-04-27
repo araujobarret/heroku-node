@@ -9,13 +9,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {MenuPage} from "../pages/menu/menu.component";
 import {MenuHeader} from "../pages/menu-header/menu-header";
+import {Tour} from "../pages/tour/tour";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     MenuPage,
-    MenuHeader
+    MenuHeader,
+    Tour
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,8 @@ import {MenuHeader} from "../pages/menu-header/menu-header";
     MyApp,
     HomePage,
     MenuPage,
-    MenuHeader
+    MenuHeader,
+    Tour
   ],
   providers: [
     StatusBar,

@@ -1,15 +1,16 @@
 <page-menu-header titleBar="Menu"></page-menu-header>
 
-<ion-grid class="background-menu">
+<ion-grid>
 
   <ion-row class="element-menu">
     <ion-col text-center col-5 class="element">
+      <span class="text-element">A Casa</span>
       <img src="../../assets/img/casa.jpg" class="img-menu">
-      <button ion-button class="overlapped-btn-element">
+      <button ion-button class="overlapped-btn-element" (click)="enterTour('casa')">
         <ion-icon name="play"></ion-icon>
       </button>
     </ion-col>
-    <ion-col text-center col-6 offset-1 class="text-menu text-menu-right">
+    <ion-col text-center col-6 offset-1 class="text-menu">
       <p text-left>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sollicitudin augue. C
       ras tincidunt dictum purus, non elementum ex scelerisque vitae.
@@ -20,13 +21,14 @@
   </ion-row>
 
   <ion-row class="element-menu">
-    <ion-col text-center col-6 class="text-menu text-menu-left">
+    <ion-col text-center col-6 class="text-menu">
       <p text-right>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sollicitudin augue. C
         ras tincidunt dictum purus, non elementum ex scelerisque vitae.
       </p>
     </ion-col>
-    <ion-col col-5 class="element">
+    <ion-col text-center col-5 class="element">
+      <span class="text-element">O Jardim</span>
       <img src="../../assets/img/jardim.jpg" class="img-menu">
       <button ion-button class="overlapped-btn-element">
         <ion-icon name="play"></ion-icon>

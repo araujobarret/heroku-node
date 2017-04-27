@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {NavController} from "ionic-angular";
+import {Tour} from "../tour/tour";
 
 @Component({
   selector: 'page-menu',
@@ -6,7 +8,11 @@ import { Component } from '@angular/core';
 })
 export class MenuPage {
 
-  constructor() {
-
+  constructor(private nav: NavController) {
   }
+
+  enterTour(mode: string){
+    this.nav.push(Tour, {type: mode}, {animate: false});
+  }
+
 }
